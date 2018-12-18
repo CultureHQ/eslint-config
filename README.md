@@ -6,4 +6,4 @@ CultureHQ's eslint configuration.
 
 ## Usage
 
-Add `@culturehq/eslint-config` to your package's dev dependencies. Then add `"extends": "@culturehq/eslint-config"` to your package's `eslintrc`.
+Add `@culturehq/eslint-config` to your package's dev dependencies. Then add `"extends": "@culturehq"` to your package's `eslintrc`.

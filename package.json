@@ -1,6 +1,6 @@
 {
   "name": "@culturehq/eslint-config",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "CultureHQ's eslint configuration",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,10 @@
   },
   "homepage": "https://github.com/CultureHQ/eslint-config#readme",
   "peerDependencies": {
-    "babel-eslint": ">= 9",
-    "eslint-config-airbnb": ">= 17"
+    "babel-eslint": ">= 9"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-filenames": "^1.3.2"
   }
 }

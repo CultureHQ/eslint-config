@@ -1,10 +1,15 @@
 module.exports = {
   parser: "babel-eslint",
   extends: "airbnb",
+  plugins: [
+    "filenames"
+  ],
   rules: {
     "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "never"],
+    "filenames/no-index": "error",
+    "filenames/match-exported": "error",
     "function-paren-newline": "off",
     "indent": ["error", 2, { "SwitchCase": 1 }],
     "object-curly-newline": "off",

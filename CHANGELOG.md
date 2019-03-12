@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.0.0] - 2019-03-12
+### Changed
+- Made the plugins actual dependencies instead of dev dependencies.
+
 ## [0.3.0] - 2019-03-12
 ### Added
 - Added the `eslint-plugin-react-hooks` dependency and its associated rule configurations.
@@ -18,6 +22,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Added
 - Initial release. 🎉
 
-[Unreleased]: https://github.com/CultureHQ/eslint-config/compare/0.2.0...HEAD
+[Unreleased]: https://github.com/CultureHQ/eslint-config/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/CultureHQ/eslint-config/compare/v0.3.0...v1.0.0
+[0.3.0]: https://github.com/CultureHQ/eslint-config/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/CultureHQ/eslint-config/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/CultureHQ/eslint-config/compare/a5cb7d...v0.1.0

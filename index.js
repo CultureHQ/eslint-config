@@ -4,7 +4,8 @@ module.exports = {
   parser: "babel-eslint",
   extends: "airbnb",
   plugins: [
-    "filenames"
+    "filenames",
+    "react-hooks"
   ],
   rules: {
     "arrow-body-style": ["error", "as-needed"],
@@ -22,6 +23,8 @@ module.exports = {
     "react/jsx-one-expression-per-line": "off",
     "react/no-did-mount-set-state": "off",
     "react/no-did-update-set-state": "off",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 };

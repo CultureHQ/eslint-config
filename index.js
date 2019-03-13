@@ -1,6 +1,11 @@
 /* eslint-disable filenames/no-index */
 
 module.exports = {
+  env: {
+    browser: true,
+    jest: true,
+    node: true,
+  },
   parser: "babel-eslint",
   extends: "airbnb",
   plugins: [
@@ -15,6 +20,10 @@ module.exports = {
     "filenames/match-exported": "error",
     "function-paren-newline": "off",
     indent: ["error", 2, { SwitchCase: 1 }],
+    "no-unused-vars": ["error", {
+      "argsIgnorePattern": "^_",
+      "varsIgnorePattern": "^_"
+    }],
     "object-curly-newline": "off",
     "object-curly-spacing": ["error", "always"],
     "quote-props": ["error", "as-needed"],

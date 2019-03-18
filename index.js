@@ -21,8 +21,9 @@ module.exports = {
     "function-paren-newline": "off",
     indent: ["error", 2, { SwitchCase: 1 }],
     "no-unused-vars": ["error", {
-      "argsIgnorePattern": "^_",
-      "varsIgnorePattern": "^_"
+      argsIgnorePattern: "^_",
+      ignoreRestSiblings: true,
+      varsIgnorePattern: "^_",
     }],
     "object-curly-newline": "off",
     "object-curly-spacing": ["error", "always"],

@@ -4,7 +4,8 @@
   "description": "CultureHQ's eslint configuration",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --config ./index.js ."
+    "lint": "eslint --config ./index.js .",
+    "rules": "eslint-find-rules --unused ./index.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,7 @@
     "eslint-plugin-react-hooks": "^1.5.1"
   },
   "devDependencies": {
-    "eslint": "^5.15.2"
+    "eslint": "^5.15.2",
+    "eslint-find-rules": "^3.3.1"
   }
 }

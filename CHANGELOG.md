@@ -7,6 +7,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ## [Unreleased]
 
 ## [1.1.0] - 2019-03-29
+### Added
+- Rules for the `no-useless-catch`, `prefer-named-capture-group`, `filenames/match-regex`, `jsx-a11y/control-has-associated-label`, `import/no-named-export`, and `react/jsx-fragments` rules.
+
 ### Changed
 - Using void to get one-line expressions to return nothing, as required by the `act` function in `react` 16.8 tests (e.g., `act(() => void fireEvent.click(getByTestId("some-id")));`). So disabling the `no-void` rule.
 

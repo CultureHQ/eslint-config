@@ -25,6 +25,7 @@ module.exports = {
       ignoreRestSiblings: true,
       varsIgnorePattern: "^_",
     }],
+    "no-void": "off",
     "object-curly-newline": "off",
     "object-curly-spacing": ["error", "always"],
     "quote-props": ["error", "as-needed"],

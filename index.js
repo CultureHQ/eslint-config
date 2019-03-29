@@ -4,7 +4,7 @@ module.exports = {
   env: {
     browser: true,
     jest: true,
-    node: true,
+    node: true
   },
   parser: "babel-eslint",
   extends: "airbnb",
@@ -22,7 +22,7 @@ module.exports = {
     "no-unused-vars": ["error", {
       argsIgnorePattern: "^_",
       ignoreRestSiblings: true,
-      varsIgnorePattern: "^_",
+      varsIgnorePattern: "^_"
     }],
     "no-void": "off",
     "object-curly-newline": "off",

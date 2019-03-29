@@ -14,8 +14,14 @@ action "Lint" {
   args = "lint"
 }
 
+action "Rules" {
+  needs = "Install"
+  uses = "docker://culturehq/actions-yarn:latest"
+  args = "rules"
+}
+
 action "Tag" {
-  needs = "Lint"
+  needs = ["Lint", "Rules"]
   uses = "actions/bin/filter@master"
   args = "tag"
 }

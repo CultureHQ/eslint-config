@@ -6,9 +6,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [1.2.0] - 2019-05-28
+### Changed
+- Bump dependencies.
+- Rules for `import/no-unused-modules`, `react/jsx-filename-extension`, `react/jsx-props-no-spreading`, `react/prefer-read-only-props`, `react/state-in-constructor`, and `react/static-property-placement`.
+
 ## [1.1.0] - 2019-03-29
 ### Added
-- Rules for the `no-useless-catch`, `prefer-named-capture-group`, `filenames/match-regex`, `jsx-a11y/control-has-associated-label`, `import/no-named-export`, and `react/jsx-fragments` rules.
+- Rules for the `no-useless-catch`, `prefer-named-capture-group`, `filenames/match-regex`, `jsx-a11y/control-has-associated-label`, `import/no-named-export`, and `react/jsx-fragments`.
 
 ### Changed
 - Using void to get one-line expressions to return nothing, as required by the `act` function in `react` 16.8 tests (e.g., `act(() => void fireEvent.click(getByTestId("some-id")));`). So disabling the `no-void` rule.
@@ -40,7 +45,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Added
 - Initial release. 🎉
 
-[Unreleased]: https://github.com/CultureHQ/eslint-config/compare/v1.1.0...HEAD
+[unreleased]: https://github.com/CultureHQ/eslint-config/compare/v1.2.0...HEAD
+[1.2.0]: https://github.com/CultureHQ/eslint-config/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/CultureHQ/eslint-config/compare/v1.0.2...v1.1.0
 [1.0.2]: https://github.com/CultureHQ/eslint-config/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/CultureHQ/eslint-config/compare/v1.0.0...v1.0.1

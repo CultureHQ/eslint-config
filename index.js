@@ -41,14 +41,19 @@ module.exports = {
 
     // eslint-plugin-import
     "import/no-named-export": "off",
+    "import/no-unused-modules": "error",
 
     // eslint-plugin-react
-    "react/jsx-filename-extension": ["warning", { extensions: [".js"] }],
+    "react/jsx-filename-extension": ["warn", { extensions: [".js"] }],
     "react/jsx-fragments": "off",
     "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "warn",
     "react/no-did-mount-set-state": "off",
     "react/no-did-update-set-state": "off",
+    "react/prefer-read-only-props": "warn",
     "react/prop-types": "off",
+    "react/state-in-constructor": ["error", "always"],
+    "react/static-property-placement": "warn",
 
     // eslint-plugin-react-hooks
     "react-hooks/rules-of-hooks": "error",

@@ -7,3 +7,11 @@ CultureHQ's eslint configuration.
 ## Usage
 
 Add `@culturehq/eslint-config` to your package's dev dependencies. Then add `"extends": "@culturehq"` to your package's `eslintrc`.
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/CultureHQ/eslint-config.
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

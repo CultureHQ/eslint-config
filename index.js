@@ -52,7 +52,7 @@ module.exports = {
     "react/no-did-update-set-state": "off",
     "react/prefer-read-only-props": "warn",
     "react/prop-types": "off",
-    "react/state-in-constructor": ["error", "always"],
+    "react/state-in-constructor": "off",
     "react/static-property-placement": "warn",
 
     // eslint-plugin-react-hooks

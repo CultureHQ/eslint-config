@@ -80,7 +80,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Initial release. 🎉
 
-[unreleased]: https://github.com/CultureHQ/eslint-config/compare/v1.2.1...HEAD
+[unreleased]: https://github.com/CultureHQ/eslint-config/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/CultureHQ/eslint-config/compare/v1.2.1...v2.0.0
 [1.2.1]: https://github.com/CultureHQ/eslint-config/compare/v1.2.0...v1.2.1
 [1.2.0]: https://github.com/CultureHQ/eslint-config/compare/v1.1.0...v1.2.0
 [1.1.0]: https://github.com/CultureHQ/eslint-config/compare/v1.0.2...v1.1.0

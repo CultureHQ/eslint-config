@@ -44,10 +44,11 @@ module.exports = {
     "import/no-unused-modules": "error",
 
     // eslint-plugin-react
+    "react/jsx-curly-newline": "error",
     "react/jsx-filename-extension": ["warn", { extensions: [".js"] }],
     "react/jsx-fragments": "off",
     "react/jsx-one-expression-per-line": "off",
-    "react/jsx-props-no-spreading": "warn",
+    "react/jsx-props-no-spreading": "off", // component libraries!
     "react/no-did-mount-set-state": "off",
     "react/no-did-update-set-state": "off",
     "react/prefer-read-only-props": "warn",

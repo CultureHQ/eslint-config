@@ -6,6 +6,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [2.2.0] - 2019-08-09
+
+### Changed
+
+- Turned off the `import/no-unused-modules` rule because it currently is difficult to configure and turn off tests.
+- Bumped all of the various plugin dependencies.
+
 ## [2.1.0] - 2019-06-25
 
 ### Changed
@@ -86,7 +93,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Initial release. 🎉
 
-[unreleased]: https://github.com/CultureHQ/eslint-config/compare/v2.1.0...HEAD
+[unreleased]: https://github.com/CultureHQ/eslint-config/compare/v2.2.0...HEAD
+[2.2.0]: https://github.com/CultureHQ/eslint-config/compare/v2.1.0...v2.2.0
 [2.1.0]: https://github.com/CultureHQ/eslint-config/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/CultureHQ/eslint-config/compare/v1.2.1...v2.0.0
 [1.2.1]: https://github.com/CultureHQ/eslint-config/compare/v1.2.0...v1.2.1

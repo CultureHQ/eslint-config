@@ -41,7 +41,8 @@ module.exports = {
 
     // eslint-plugin-import
     "import/no-named-export": "off",
-    "import/no-unused-modules": "error",
+    // v--- until https://github.com/benmosher/eslint-plugin-import/issues/1326
+    "import/no-unused-modules": "off",
 
     // eslint-plugin-react
     "react/jsx-curly-newline": "error",

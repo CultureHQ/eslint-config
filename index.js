@@ -16,6 +16,7 @@ module.exports = {
     "arrow-body-style": ["error", "as-needed"],
     "arrow-parens": ["error", "as-needed"],
     "comma-dangle": ["error", "never"],
+    "function-call-argument-newline": ["warn", "consistent"],
     "function-paren-newline": "off",
     indent: ["error", 2, { SwitchCase: 1 }],
     "no-useless-catch": "warn",

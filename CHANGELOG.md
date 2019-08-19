@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+### Added
+
+- Configuration for the new `function-call-argument-newline` eslint 6.2 rule.
+
 ## [3.0.0] - 2019-08-12
 
 ### Changed

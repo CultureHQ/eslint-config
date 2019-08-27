@@ -1,5 +1,3 @@
-/* eslint-disable filenames/no-index */
-
 module.exports = {
   env: {
     browser: true

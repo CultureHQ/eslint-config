@@ -62,7 +62,7 @@ module.exports = {
     "react/jsx-curly-newline": "error",
     "react/jsx-curly-spacing": ["error", "never", { allowMultiline: true }],
     "react/jsx-equals-spacing": ["error", "never"],
-    "react/jsx-filename-extension": ["warn", { extensions: [".js"] }],
+    "react/jsx-filename-extension": ["warn", { extensions: [".js", ".tsx"] }],
     "react/jsx-first-prop-new-line": ["error", "multiline-multiprop"],
     "react/jsx-fragments": "off",
     "react/jsx-handler-names": ["off", {

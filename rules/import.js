@@ -5,10 +5,10 @@ module.exports = {
   settings: {
     "import/resolver": {
       node: {
-        extensions: [".js", ".json"]
+        extensions: [".js", ".json", ".ts", ".tsx"]
       }
     },
-    "import/extensions": [".js"],
+    "import/extensions": [".js", ".ts", ".tsx"],
     "import/core-modules": [],
     "import/ignore": [
       "node_modules",

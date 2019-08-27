@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+### Added
+
+- Support for TypeScript, including rule configurations for the plugin.
+- Support for jest, including rule configurations for the plugin.
+- Configuration for the `require-atomic-updates` rule.
+
+### Changed
+
+- Removed the `eslint-config-airbnb` dependency and added the rules directly in.
+- Pulled out the `react` configuration so that it can be optionally included.
+
 ## [3.1.0] - 2019-08-19
 
 ### Added

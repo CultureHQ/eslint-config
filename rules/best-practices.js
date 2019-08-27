@@ -148,6 +148,7 @@ module.exports = {
     "prefer-promise-reject-errors": ["error", { allowEmptyReject: true }],
     "prefer-named-capture-group": "off",
     radix: "error",
+    "require-atomic-updates": "error",
     "require-await": "off",
     "require-unicode-regexp": "off",
     "vars-on-top": "error",

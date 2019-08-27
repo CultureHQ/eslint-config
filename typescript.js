@@ -7,10 +7,7 @@ module.exports = {
     "plugin:@typescript-eslint/recommended"
   ],
   rules: {
-    "@typescript-eslint/explicit-function-return-type": ["error", {
-      allowExpressions: true,
-      allowHigherOrderFunctions: true
-    }],
+    "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/no-explicit-any": "off"
   }
 };

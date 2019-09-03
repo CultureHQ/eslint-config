@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+### Added
+
+- Configuration for the `jest/require-top-level-describe` rule.
+
 ## [4.0.1] - 2019-08-27
 
 ### Changed

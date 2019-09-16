@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [4.1.0] - 2019-09-16
+
 ### Added
 
 - Configuration for the `jest/require-top-level-describe` rule.
@@ -135,7 +137,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Initial release. 🎉
 
-[unreleased]: https://github.com/CultureHQ/eslint-config/compare/v4.0.1...HEAD
+[unreleased]: https://github.com/CultureHQ/eslint-config/compare/v4.1.0...HEAD
+[4.1.0]: https://github.com/CultureHQ/eslint-config/compare/v4.0.1...v4.1.0
 [4.0.1]: https://github.com/CultureHQ/eslint-config/compare/v4.0.0...v4.0.1
 [4.0.0]: https://github.com/CultureHQ/eslint-config/compare/v3.1.0...v4.0.0
 [3.1.0]: https://github.com/CultureHQ/eslint-config/compare/v3.0.0...v3.1.0

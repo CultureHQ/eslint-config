@@ -1,6 +1,6 @@
 {
   "name": "@culturehq/eslint-config",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "description": "CultureHQ's eslint configuration",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,6 @@
     "eslint-plugin-react-hooks": "^2.0.1"
   },
   "devDependencies": {
-    "eslint": "^6.2.0"
+    "eslint": "^6.4.0"
   }
 }

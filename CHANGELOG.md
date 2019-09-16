@@ -9,6 +9,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Added
 
 - Configuration for the `jest/require-top-level-describe` rule.
+- Configuration for the `default-param-last` rule.
+- Configuration for the `no-import-assign` rule.
+- Configuration for the `prefer-regex-literals` rule.
+
+### Changed
+
+- Aligned the TypeScript rules better with the existing JavaScript rules.
 
 ## [4.0.1] - 2019-08-27
 

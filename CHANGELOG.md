@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+### Added
+
+- Configuration for the `jest/prefer-hooks-on-top` rule.
+
 ## [4.1.0] - 2019-09-16
 
 ### Added

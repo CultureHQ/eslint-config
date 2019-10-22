@@ -9,6 +9,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 ### Added
 
 - Configuration for the `jest/prefer-hooks-on-top` rule.
+- Configuration for the `jest/valid-title` rule.
 
 ## [4.1.0] - 2019-09-16
 

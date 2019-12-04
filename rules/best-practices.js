@@ -19,6 +19,7 @@ module.exports = {
     "no-alert": "warn",
     "no-caller": "error",
     "no-case-declarations": "error",
+    "no-constructor-return": "error",
     "no-div-regex": "off",
     "no-else-return": ["error", { allowElseIf: false }],
     "no-empty-function": ["error", {
@@ -131,6 +132,7 @@ module.exports = {
     }],
     "no-self-compare": "error",
     "no-sequences": "error",
+    "no-setter-return": "error",
     "no-throw-literal": "error",
     "no-unmodified-loop-condition": "off",
     "no-unused-expressions": ["error", {

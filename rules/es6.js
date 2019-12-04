@@ -8,6 +8,7 @@ module.exports = {
     "arrow-spacing": ["error", { before: true, after: true }],
     "constructor-super": "error",
     "generator-star-spacing": ["error", { before: false, after: true }],
+    "grouped-accessor-pairs": ["warn", "getBeforeSet"],
     "no-class-assign": "error",
     "no-confusing-arrow": ["error", {
       allowParens: true
@@ -53,6 +54,7 @@ module.exports = {
     }, {
       enforceForRenamedProperties: false
     }],
+    "prefer-exponentiation-operator": "error",
     "prefer-numeric-literals": "error",
     "prefer-reflect": "off",
     "prefer-rest-params": "error",

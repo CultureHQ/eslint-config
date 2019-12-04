@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+### Added
+
+- Configuration for the `no-constructor-return` rule.
+- Configuration for the `no-setter-return` rule.
+- Configuration for the `no-dupe-else-if` rule.
+- Configuration for the `grouped-accessor-pairs` rule.
+- Configuration for the `prefer-exponentiation-operator` rule.
+
 ## [5.0.0] - 2019-10-28
 
 ### Added

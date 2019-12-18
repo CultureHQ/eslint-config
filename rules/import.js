@@ -8,15 +8,7 @@ module.exports = {
         extensions: [".js", ".json", ".ts", ".tsx", ".d.ts"]
       }
     },
-    "import/extensions": [
-      "error",
-      "ignorePackages",
-      {
-        js: "never",
-        ts: "never",
-        tsx: "never"
-      }
-    ],
+    "import/extensions": [".js", ".ts", ".tsx"],
     "import/core-modules": [],
     "import/ignore": [
       "node_modules",
@@ -67,8 +59,8 @@ module.exports = {
     "import/no-namespace": "off",
     "import/extensions": ["error", "ignorePackages", {
       js: "never",
-      mjs: "never",
-      jsx: "never"
+      ts: "never",
+      tsx: "never"
     }],
     "import/order": ["error", { groups: [["builtin", "external", "internal"]] }],
     "import/newline-after-import": "error",

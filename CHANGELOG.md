@@ -6,6 +6,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [5.1.0] - 2019-12-18
+
 ### Added
 
 - Configuration for the `no-constructor-return` rule.
@@ -13,6 +15,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 - Configuration for the `no-dupe-else-if` rule.
 - Configuration for the `grouped-accessor-pairs` rule.
 - Configuration for the `prefer-exponentiation-operator` rule.
+
+### Changed
+
+- The configuration for the `import/extensions` to match the correct schema.
 
 ## [5.0.0] - 2019-10-28
 
@@ -156,7 +162,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Initial release. 🎉
 
-[unreleased]: https://github.com/CultureHQ/eslint-config/compare/v5.0.0...HEAD
+[unreleased]: https://github.com/CultureHQ/eslint-config/compare/v5.1.0...HEAD
+[5.1.0]: https://github.com/CultureHQ/eslint-config/compare/v5.0.0...v5.1.0
 [5.0.0]: https://github.com/CultureHQ/eslint-config/compare/v4.1.0...v5.0.0
 [4.1.0]: https://github.com/CultureHQ/eslint-config/compare/v4.0.1...v4.1.0
 [4.0.1]: https://github.com/CultureHQ/eslint-config/compare/v4.0.0...v4.0.1

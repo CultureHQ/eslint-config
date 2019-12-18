@@ -8,7 +8,15 @@ module.exports = {
         extensions: [".js", ".json", ".ts", ".tsx", ".d.ts"]
       }
     },
-    "import/extensions": [".js", ".ts", ".tsx"],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        js: "never",
+        ts: "never",
+        tsx: "never"
+      }
+    ],
     "import/core-modules": [],
     "import/ignore": [
       "node_modules",

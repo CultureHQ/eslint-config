@@ -1,6 +1,6 @@
 {
   "name": "@culturehq/eslint-config",
-  "version": "5.1.1",
+  "version": "5.1.2",
   "description": "CultureHQ's eslint configuration",
   "main": "index.js",
   "scripts": {

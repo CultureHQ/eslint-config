@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+## [5.2.0] - 2020-05-04
+
+### Added
+
+- The `jest/no-deprecated-functions` rule.
+
 ## [5.1.2] - 2020-02-05
 
 ### Changed
@@ -174,7 +180,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 - Initial release. 🎉
 
-[unreleased]: https://github.com/CultureHQ/eslint-config/compare/v5.1.2...HEAD
+[unreleased]: https://github.com/CultureHQ/eslint-config/compare/v5.2.0...HEAD
+[5.2.0]: https://github.com/CultureHQ/eslint-config/compare/v5.1.2...v5.2.0
 [5.1.2]: https://github.com/CultureHQ/eslint-config/compare/v5.1.1...v5.1.2
 [5.1.1]: https://github.com/CultureHQ/eslint-config/compare/v5.1.0...v5.1.1
 [5.1.0]: https://github.com/CultureHQ/eslint-config/compare/v5.0.0...v5.1.0

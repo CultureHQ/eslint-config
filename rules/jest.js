@@ -26,6 +26,7 @@ module.exports = {
       maxSize: 300
     }],
     "jest/no-mocks-import": "error",
+    "jest/no-restricted-matchers": "error",
     "jest/no-standalone-expect": "off",
     "jest/no-test-callback": "off",
     "jest/no-test-prefixes": "error",

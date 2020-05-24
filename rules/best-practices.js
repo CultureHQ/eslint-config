@@ -53,6 +53,7 @@ module.exports = {
     "no-labels": ["error", { allowLoop: false, allowSwitch: false }],
     "no-lone-blocks": "error",
     "no-loop-func": "error",
+    "no-loss-of-precision": "warn",
     "no-magic-numbers": ["off", {
       ignore: [],
       ignoreArrayIndexes: true,
@@ -85,6 +86,7 @@ module.exports = {
     }],
     "no-proto": "error",
     "no-redeclare": "error",
+    "no-restricted-exports": "error",
     "no-restricted-properties": ["error", {
       object: "arguments",
       property: "callee",
@@ -141,6 +143,7 @@ module.exports = {
       allowTaggedTemplates: false
     }],
     "no-unused-labels": "error",
+    "no-useless-backreference": "error",
     "no-useless-call": "off",
     "no-useless-catch": "warn",
     "no-useless-concat": "error",

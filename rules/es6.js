@@ -17,6 +17,7 @@ module.exports = {
     "no-dupe-class-members": "error",
     "no-duplicate-imports": "off",
     "no-new-symbol": "error",
+    "no-promise-executor-return": "error",
     "no-restricted-imports": ["off", {
       paths: [],
       patterns: []

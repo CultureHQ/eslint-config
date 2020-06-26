@@ -149,6 +149,7 @@ module.exports = {
     "no-useless-concat": "error",
     "no-useless-escape": "error",
     "no-useless-return": "error",
+    "no-unreachable-loop": "error",
     "no-void": "off",
     "no-warning-comments": ["off", { terms: ["todo", "fixme", "xxx"], location: "start" }],
     "no-with": "error",

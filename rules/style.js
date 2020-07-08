@@ -49,6 +49,7 @@ module.exports = {
     "function-call-argument-newline": ["warn", "consistent"],
     "function-paren-newline": "off",
     "id-blacklist": "off",
+    "id-denylist": "off",
     "id-length": "off",
     "id-match": "off",
     "implicit-arrow-linebreak": ["error", "beside"],

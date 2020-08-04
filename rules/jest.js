@@ -20,6 +20,7 @@ module.exports = {
     "jest/no-focused-tests": "error",
     "jest/no-hooks": "off",
     "jest/no-identical-title": "error",
+    "jest/no-interpolation-in-snapshots": "error",
     "jest/no-if": "error",
     "jest/no-jasmine-globals": "off",
     "jest/no-jest-import": "error",

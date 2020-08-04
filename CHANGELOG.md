@@ -6,6 +6,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ## [Unreleased]
 
+### Added
+
+- The `jest/no-interpolation-in-snapshots` rule.
+
 ## [5.2.2] - 2020-06-26
 
 ### Added

@@ -1,6 +1,6 @@
 {
   "name": "@culturehq/eslint-config",
-  "version": "5.2.2",
+  "version": "5.2.3",
   "description": "CultureHQ's eslint configuration",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "eslint": ">= 5"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
     "@typescript-eslint/parser": "^4.0.1",
     "babel-eslint": "^10.0.2",
     "confusing-browser-globals": "^1.0.8",

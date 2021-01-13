@@ -41,6 +41,7 @@ module.exports = {
     "no-unsafe-finally": "error",
     "no-unsafe-negation": "error",
     "no-negated-in-lhs": "off",
+    "no-unsafe-optional-chaining": "error",
     "use-isnan": "error",
     "valid-jsdoc": "off",
     "valid-typeof": ["error", { requireStringLiterals: true }]

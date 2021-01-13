@@ -141,6 +141,7 @@ module.exports = {
     "no-negated-condition": "off",
     "no-nested-ternary": "error",
     "no-new-object": "error",
+    "no-nonoctal-decimal-escape": "error",
     "no-plusplus": "error",
     "no-restricted-syntax": [
       "error",
